@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>工程开发文档.md</file>
+    </qresource>
+</RCC>
