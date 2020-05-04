@@ -50,3 +50,7 @@ compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+.vscode/
