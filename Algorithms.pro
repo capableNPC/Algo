@@ -39,6 +39,7 @@ DISTFILES += \
     data/algoTreeData.xml \
     doc/class.qmodel \
     doc/flowchart.qmodel \
+    doc/projectLog.md \
     doc/ucd.qmodel \
     qss/default.qss
 RESOURCES += \
