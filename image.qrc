@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/about.png</file>
+        <file>icon/algoDetail.png</file>
+        <file>icon/algoTree.png</file>
+        <file>icon/autoStep.png</file>
+        <file>icon/codeDetail.png</file>
+        <file>icon/control.png</file>
+        <file>icon/detail.png</file>
+        <file>icon/finish.png</file>
+        <file>icon/frameSet.png</file>
+        <file>icon/go.png</file>
+        <file>icon/help.png</file>
+        <file>icon/hugeFrame.png</file>
+        <file>icon/ico1.ico</file>
+        <file>icon/ico1.png</file>
+        <file>icon/ico2.png</file>
+        <file>icon/ico3.png</file>
+        <file>icon/ico4.png</file>
+        <file>icon/lastStep.png</file>
+        <file>icon/nextStep.png</file>
+        <file>icon/normalFrame.png</file>
+        <file>icon/output.png</file>
+        <file>icon/rate0.png</file>
+        <file>icon/rate1.png</file>
+        <file>icon/rate2.png</file>
+        <file>icon/rate3.png</file>
+        <file>icon/recodScreen.png</file>
+        <file>icon/singleStep.png</file>
+        <file>icon/start.png</file>
+        <file>icon/stop.png</file>
+        <file>icon/tool.png</file>
+    </qresource>
+</RCC>

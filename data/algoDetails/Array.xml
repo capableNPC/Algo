@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root name="Array">
+	<explain empty="false">
+	<![CDATA[<ol>
+		<li>许多高级语言将数组作为一种内置的数据类型。</li>
+		<li>数组支持对一组相关元素的存储组织与访问操作。</li>
+		<li>若集合S由n个元素组成，且各元素之间具有一个线性次序，则可将它们存放于起始于地址A、物理位置连续的
+		一段存储空间，并统称作数组（array）。</li>
+		<li>数组A[n]中的每一元素都唯一对应于某一下标编号，在C++中，从0开始编号，依次是0号、1号、2号、...、n-1
+		号元素</li>
+		<li>对于任何0 ≤ i &lt; j &lt; n，A[i]都是A[j]的前驱（predecessor），A[j]都是A[i]的后继（successor）。
+		特别地，对于任何1 ≤ i，A[i - 1]称作A[i]的直接前驱（intermediate predecessor）;对于任何i ≤ (n-2)，
+		A[i + 1]称作A[i]的直接后继（intermediate successor）。</li>
+		<li>任一元素的所有前驱构成其前缀（prefix），所有后继构成其后缀（suffix）。</li>
+		<li>每个元素都通过下标唯一指代，而且我们可以直接访问到任一元素。“直接”是指可以在常数时间内访问到数据。</li>
+		<li>若数组A[n]存放空间的起始地址为A，且每个元素占用s个单位的空间，则元素A[i]对应的物理地址为：
+		A + i × s。</li>
+		<li>元素的物理地址与其下标之间满足线性关系，称作线性数组（linear array）。</li>
+	</ol>]]>
+	</explain>
+	<code empty="false">
+	<![CDATA[<ol>
+		<li>静态数组：int array[2];//未初始化</li>
+		<li>静态数组：int array[2] = {0,1};//初始化</li>
+		<li>动态数组：int* array = new int[2];//未初始化</li>
+		<li>动态数组：int* array = new int[2](0,1);//初始化s</li>
+	</ol>]]>
+	</code>
+	<complexity empty="true">
+	</complexity>
+</root>

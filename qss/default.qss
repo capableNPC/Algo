@@ -1,0 +1,31 @@
+/* === QToolBox === */
+QToolBox
+{
+    background: #363636;
+    border-radius:5px;
+    border:6px solid #363636;
+}
+QToolBox QWidget
+{
+    background-color: #525252;
+}
+QToolBox QWidget QPushButton
+{
+    background-color: #525252;
+    border-style : 0;
+    font: bold 20px "Microsoft YaHei";
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+QToolBox::tab
+{
+    background: #414141;
+    border-radius:5px;
+    color: #FFFFFF;
+}
+QToolBox::tab:selected {
+    background: #3EB5ED;
+    font: bold italic;
+    color:#000000;
+    border-radius:5px;
+}

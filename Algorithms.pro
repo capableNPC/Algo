@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui xml svg
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -20,6 +20,7 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    datapackage.h \
     mainwindow.h
 
 FORMS += \
@@ -34,7 +35,16 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    class.qmodel
-
+    data/algoDetails/Array.xml \
+    data/algoTreeData.xml \
+    doc/class.qmodel \
+    doc/flowchart.qmodel \
+    doc/ucd.qmodel \
+    qss/default.qss
 RESOURCES += \
-    doc/doc.qrc
+    image.qrc
+
+STATECHARTS +=
+
+INCLUDEPATH +=$$PWD module
+include(module/Module.pri)
